@@ -1,14 +1,4 @@
-import {
-  Scene,
-  Engine,
-  FreeCamera,
-  Vector3,
-  MeshBuilder,
-  CubeTexture,
-  Texture,
-  PBRMaterial,
-  ImportMeshAsync,
-} from "@babylonjs/core";
+import { Scene, Engine, FreeCamera, Vector3, CubeTexture, ImportMeshAsync } from "@babylonjs/core";
 import "@babylonjs/loaders";
 
 export class CustomModels {

@@ -22,7 +22,7 @@ export class BasicScene {
     const hemiLight = new HemisphericLight("hemiLight", new Vector3(0, 1, 0), this.scene);
 
     hemiLight.intensity = 0.5;
-    const ground = MeshBuilder.CreateGround("ground", { width: 10, height: 10 }, this.scene);
+    // const ground = MeshBuilder.CreateGround("ground", { width: 10, height: 10 }, this.scene);
     const ball = MeshBuilder.CreateSphere("ball", { diameter: 1 }, this.scene);
     ball.position = new Vector3(0, 1, 0);
 

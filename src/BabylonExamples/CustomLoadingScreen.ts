@@ -25,7 +25,7 @@ export class CustomLoadingScreen implements ILoadingScreen {
       this.loader.id = "loaded";
       setTimeout(() => {
         if (this.loader) this.loader.style.display = "none";
-      }, 1000);
+      }, 300);
     }
   }
 

@@ -49,7 +49,7 @@ export class CustomLoading {
     camera.attachControl();
     camera.speed = 0.25;
 
-    const envTex = CubeTexture.CreateFromPrefilteredData("./environment/sky.env", scene);
+    const envTex = CubeTexture.CreateFromPrefilteredData("./assets/environment/sky.env", scene);
 
     scene.environmentTexture = envTex;
 
@@ -62,7 +62,7 @@ export class CustomLoading {
 
   async CreateEnvironment(): Promise<void> {
     // await ImportMeshAsync("./models/LightingScene.glb", this.scene);
-    await ImportMeshAsync("./models/LightingScene.glb", this.scene, {
+    await ImportMeshAsync("./assets/models/LightingScene.glb", this.scene, {
       // 3. Options Object
       onProgress: (evt) => {
         if (evt.lengthComputable) {

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import { CustomLoading } from "../BabylonExamples/CustomLoading";
 // import { BasicScene } from "../BabylonExamples/BasicScene";
 // import { StandardMaterials } from "../BabylonExamples/StandardMaterials";
 // import { CustomModels } from "../BabylonExamples/CustomModels";
-import { CustomLoading } from "../BabylonExamples/customLoading";
 
 // defineProps<{ msg: string }>()
 

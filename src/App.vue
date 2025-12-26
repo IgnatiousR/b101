@@ -10,7 +10,7 @@ import BabylonExample from "./components/BabylonExample.vue";
 * {
   padding: 0;
   margin: 0;
-  background-image: url("../public/images/Background_Dots.png");
+  background-image: url("../assets/images/Background_Dots.png");
   background-size: cover;
   background-position: center;
 }
